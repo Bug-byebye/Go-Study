@@ -68,3 +68,7 @@ func main() {
 	n := leetcode.SumDigitDifferencesPro(nums)
 	fmt.Print(n)
 }
+/*	numst := []int{1,1203,20304}
+	co := leetcode.ApproximatePairs(numst)
+	fmt.Println(co)
+}*/

@@ -96,10 +96,14 @@
 > `strings.Index`/`strings.LastIndex` 子串出现位置
 > `string.Join(a[]string,sep string)` join操作
 
+<<<<<<< HEAD
 字符串中字符修改可通过`byte`或`rune`
 > `rune` 表示一个`Unicode`码位, 对于小写英文字母，字符`'a'`的`Unicode`值是97, `'b'`是98，以此类推，直到`'z'`的`Unicode`值为 122。
 当进行字符相减时，实际上是在做字符减法运算：'c' - 'a' 的结果是 99 - 97 = 2。
 （相关使用可见[leetcode-3144的灵神题解](https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency/solutions/2775377/hua-fen-xing-dpji-yi-hua-sou-suo-di-tui-s1nq0/)）
+=======
+字符串中字符修改可通过`byte`或`rune`（表示一个`Unicode`码位，字符串中涉及中文等时使用）
+>>>>>>> 85f213729f373b66067109a4fd4aa084440d0300
 
 #### 4. 切片
 
